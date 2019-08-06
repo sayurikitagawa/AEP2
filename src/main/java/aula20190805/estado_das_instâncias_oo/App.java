@@ -9,7 +9,7 @@ public class App {
 		
 		//Não é permitido! O encapsulamento do saldoAtual 
 		//impede a atribuição externa direta! :D
-		//cc01.sadoAtual = -999.00f;
+		//cc01.saldoAtual = -999.00f;
 		System.out.println(cc01.getSaldoAtual());		
 	}
 }

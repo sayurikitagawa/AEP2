@@ -7,6 +7,9 @@ public class App {
 		cc01.saldoAtual = 100.00f;
 		
 		sacar(cc01, 20.00f);
+		
+		cc01.saldoAtual = -999.00f;
+		
 		System.out.println(cc01.saldoAtual);
 	}
 	public static void sacar(ContaCorrente cc, float valor) {

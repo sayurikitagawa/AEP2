@@ -24,3 +24,6 @@ void sacar(ContaCorrente* cc, float valor) {
 	cc->totalDeSaques += valor;
 	cc->saldoAtual -= valor;
 }
+
+
+
