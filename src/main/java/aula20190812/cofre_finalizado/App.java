@@ -7,7 +7,15 @@ public class App {
 		Cofre cofreDaSala = new Cofre();
 		Cofre cofreDaCozinha = new Cofre();
 		
+		if (System.currentTimeMillis() % 2 == 0) {
+			RuntimeException exceção = new RuntimeException("Erro!!!!");
+			throw exceção;
+			
+		}
+		
 		cofreDaSala.fechar(4321);
+		cofreDaSala.fechar(4321);
+		
 		cofreDaCozinha.fechar(5555);
 		
 		exibirStatus(cofreDaSala, cofreDaCozinha);
